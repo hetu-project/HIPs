@@ -3,7 +3,7 @@
 
 | Authors | Advaita Labs <hip@advaita.xyz>|
 |--|--|
-| Updated | 2023-12-10 |
+| Updated | 2023-12-19 |
 
 ## What is an HIP?
 The Hetu Initiative Proposal (HIP) is an innovative proposal process promoted by the Hetu community. The goal of HIP is to enhance innovation capability and collaboration efficiency in open and inclusive communities. Through HIP, we hope to transform existing problems and improvement opportunities in our processes into valuable suggestions and specific action plans to better support Hetu protocol. These projects include the following three aspects:
@@ -13,15 +13,15 @@ The Hetu Initiative Proposal (HIP) is an innovative proposal process promoted by
 
 A HIP must be a clear and complete description of the initiaitive. A single initiaitive is highly recommended that contain a single key proposal or new idea. 
 ## HIP Types
-There are several different types of HIP, `a` `b` `c` used to distinguish different levels of HIP, and their processes will correspondingly be different.
+There are several different types of HIP, `A` `B` `C` used to distinguish different levels of HIP, and their processes will correspondingly be different.
 
-### HIP-a: Core
+### HIP-A: Communication layer
 Proposals that affects the upgrade and major updates of all nodes within the Hetu network. It is necessary to fork the key components of Hetu (such as logical clock), cryptographic algorithms, and interfaces etc.
 
-### HIP-b: Extensions & Middleware
+### HIP-B: Middleware & Extensions
 Including proposals around client API/RPC specifications;the extension of data structure,network protocol and interfaces, existing network nodes can obtain locality capabilities (such as local ledgers, distributed key management, causal social networks, etc.) by upgrading their code without affecting the logic of underlying protocols and core components; using existing components to build application infrastructure, supporting building of cohort network and seamless access to Hetu Network.
 
-### HIP-c: Application-level standards and schemes
+### HIP-C: Application-level standards and schemes
 Including proposals on applications and standards, these proposals provide users with innovative capabilities through the use of Hetu protocol, underlying extensions, data structures, and network transmission capabilities.
 
 ## Work Flow
@@ -29,12 +29,12 @@ Including proposals on applications and standards, these proposals provide users
 ### 1. Proposal
 
 1. HIPs should be written in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
-2. Fork the HIP repo, and modify the [Proposal template](https://raw.githubusercontent.com/hetu-project/HIPs/main/HIP_Proposal_Template.md) to create a proposal document with HIP type(e.g. HIP-a). 
+2. Fork the HIP repo, and modify the [Proposal template](https://raw.githubusercontent.com/hetu-project/HIPs/main/HIP_Proposal_Template.md) to create a proposal document with HIP type(e.g. HIP-A). 
 3. Create a Pull Request to the HIP repository, make sure the email displayed on the proposer's GitHub should be one of the authors of HIP proposal document.
 
 ### 2. Proposal Review
-1. The HIP review team will review the proposal,and discuss whether the type is appropriate.If the proposal is labeled as HIP-a, it need more committee members and scholars to discuss together and determine its appropriateness.
-2. Then proposal will be assigned a unique number(e.g. HIP-a-2) and notify the proposer. 
+1. The HIP review team will review most of the proposals,and discuss whether the type is appropriate.If the proposal is labeled as HIP-A, it need Hetu Core to discuss together and determine its appropriateness. If the proposal is labeled as HIP-B, HIP committee will determine its appropriateness.
+2. Then proposal will be assigned a unique number(e.g. HIP-A-2) and notify the proposer. 
 3. The proposer change the name of PR document to the assigned name and commit.
 4. The HIP committee mark the PR as a `draft` status.
 5. Unless specified otherwise,the day on which proposer change the name and commit will be considered the starting date of the project, and will be used to estimate delivery dates.
@@ -50,15 +50,15 @@ Including proposals on applications and standards, these proposals provide users
     
     Different types of proposals have different acceptance methods.
 
-    `HIP-a`
+    `HIP-A`
     
-    The proposal first needs to be voted on by the HIP committee. After approval, it needs to undergo a sufficiently long period of testing on the testnet. Then, it will be publicly discussed and confirmed for acceptance through a vote by Hetu DAO.
+    The proposal first needs to be voted on by the HIP committee. After approval, it needs to undergo a sufficiently long period of testing on the testnet. Then, it will be publicly discussed and confirmed for acceptance through a vote by Hetu Core.
 
-    `HIP-b`
+    `HIP-B`
     
     A carefully selected acceptance team will review and accept the proposal. Some members of the HIP committee will be assigned to review the delivery and request changes on the delivery. Their feedback needs to be resolved before a proposal is accepted.
 
-    `HIP-c`
+    `HIP-C`
     
     Criteria for acceptance of proposals:
     - They should make sense.
