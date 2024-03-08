@@ -1,27 +1,17 @@
 ## Proposal Overview
 
-### Overview
-
 Please provide the following:
 
 - A brief description of your proposal.
 
-### Proposal Details
+## Author:
+Email (e.g. one@dent.com) and Telegram username
+
+## Proposal Details
 Provide the following content if available.
 - An indication of why creating this proposal.
 - An overview of the technology stack to be used
 - Documentation of core components, protocols, architecture, etc. to be deployed
-
-## Team:
-
-### Members
-
-- Name of team leader
-- Names of team members
-
-### Contact
-- **Contact:** Email (e.g. one@dent.com) and Telegram username
-- **Others if available:** Your website, Twitter,……
 
 ## Reference(if available)
 
